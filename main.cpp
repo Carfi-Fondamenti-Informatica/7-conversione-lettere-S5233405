@@ -3,12 +3,12 @@
 using namespace std;
 
 int main(){
-  char n;
-    cin >> n;
-    if (number(n)==1 && n>=97 && n<=122){
-        cout << char (n-32);
-    } else if (number(n)==1 && n>=65 && n<=90 ){
-        cout << char (n+32);
+  char x;
+    cin >> x;
+    if (number(x)==1 && x>=97 && x<=122){
+        cout << char (x-32);
+    } else if (number(x)==1 && x>=65 && x<=90 ){
+        cout << char (x+32);
     } else {
         cout <<"errore";
     }
