@@ -10,7 +10,7 @@ int main(){
     } else if (number(n)==1 && n>=65 && n<=90 ){
         cout << char (n+32);
     } else {
-        cout <<"errore";
+        cout <<"errore" ;
     }
   return 0;
 }
